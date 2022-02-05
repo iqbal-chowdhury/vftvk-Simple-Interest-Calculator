@@ -1,12 +1,30 @@
-body {background-color:black; font-family:arial; color:white}
-h1{color:grey; font-family: veranda}
+body {
+  background-color: black;
+  font-family: arial;
+  color: white;
+}
+h1 {
+  color: grey;
+  font-family: veranda;
+}
 
-.maindiv{
-    margin: auto;
-    background-color:white;
-    color:black;
-    width:300px;
-    padding:20px;
-    border-radius:25px;
-    align:center
+label {
+  color: black;
+  width: 130px;
+  float: left;
+  text-align: center;
+  text-align: justify;
+  content: ": ";
+}
+
+.maindiv {
+  position: relative;
+  margin: auto;
+  text-align: left;
+  background-color: white;
+  color: black;
+  width: 500px;
+  padding: 20px;
+  border-radius: 25px;
+  align-content: center;
 }
